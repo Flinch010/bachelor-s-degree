@@ -3,4 +3,4 @@ A comparison study between different FFT algorithms implemented in Java as part 
 
 Algorithms we compared using the ALGator system: https://github.com/ALGatorDevel/Algator
 
-Each implementation which we mentioned above can be found in: PROJ-FurierTransform/algs/ALG-<algorithm_name>
+Each implementation which we mentioned above can be found in: PROJ-FurierTransform/algs/ALG-\<algorithm_name\>
