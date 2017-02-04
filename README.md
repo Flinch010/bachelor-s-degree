@@ -5,5 +5,5 @@ Algorithms were compared with the help of the ALGator system: https://github.com
 
 Each implementation which we mentioned above can be found in: PROJ-FurierTransform/algs/ALG-\<algorithm_name\>
 
-* Author: Žiga Zorman
-* Mentor: Tomaž Dobravec, Ph.D.
+* **Author**: Žiga Zorman
+* **Mentor**: Tomaž Dobravec, Ph.D.
