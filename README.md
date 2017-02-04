@@ -17,4 +17,10 @@ Each implementation which we mentioned above can be found in: PROJ-FurierTransfo
 
 ## References
 
-* Henri J. Nussbaumer, ``Fast Fourier Transform and Convolution Algorithms: Second Corrected and Updated Edition'',2. ed., *Springer Series in Information Science*, vol. 2, page 81--94, Berlin [etc.]: Springer, 1982.
+* Henri J. Nussbaumer, "Fast Fourier Transform and Convolution Algorithms: Second Corrected and Updated Edition",2. ed., *Springer Series in Information Science*, vol. 2, page 81-94, Berlin [etc.]: Springer, 1982.
+
+* E. Chu, A. George "Inside the FFT Black Box: Serial and Parallel Fast Fourier Transform Algorithms", *Computational Mathematics Series*, Boca Raton: CRC Press LLC, 2000.
+
+* John G. Proakis, Dimitris K. Manolakis "Digital Signal Processing: Principles, Algorithms, and Applications", 4. ed., New Jersey: Prentice Hall, 7(4), 2006.
+
+* P. Duhamel, Henk D. L. Hollmann. "Split radix FFT algorithm". [Online](https://www.researchgate.net/publication/3399594\_Split\_radix\)
