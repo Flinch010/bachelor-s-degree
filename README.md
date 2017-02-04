@@ -23,4 +23,4 @@ Each implementation which we mentioned above can be found in: PROJ-FurierTransfo
 
 * John G. Proakis, Dimitris K. Manolakis "Digital Signal Processing: Principles, Algorithms, and Applications", 4. ed., New Jersey: Prentice Hall, 7(4), 2006.
 
-* P. Duhamel, Henk D. L. Hollmann. "Split radix FFT algorithm". [Online](https://www.researchgate.net/publication/3399594\_Split\_radix\)
+* P. Duhamel, Henk D. L. Hollmann. "Split radix FFT algorithm". [Online](https://www.researchgate.net/publication/3399594_Split_radix\)
