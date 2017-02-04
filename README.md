@@ -1,4 +1,4 @@
-# bachelor-s-degree
+# Info
 A comparison study between different FFT algorithms implemented in Java as part of the bachelor's degree. Implemented algorithms: Furier transform by definition, radix-2 (DIT) recursive, radix-2 (DIT) iterative, radix-2 (DIF) recursive, radix-4 (DIT) recursive, radix-4 (DIF) recursive, radix-4 (DIT) iterative, split radix (DIT), split radix (DIF), Bluestein's algoritm.
 
 Algorithms were compared with the help of the ALGator system: https://github.com/ALGatorDevel/Algator
@@ -7,3 +7,7 @@ Each implementation which we mentioned above can be found in: PROJ-FurierTransfo
 
 * **Author**: Žiga Zorman
 * **Mentor**: Tomaž Dobravec, Ph.D.
+
+## Dependencies
+* [Apache Commons Math 3.6.1] library (http://commons.apache.org/proper/commons-math/download_math.cgi)
+
