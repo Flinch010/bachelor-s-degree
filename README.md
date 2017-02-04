@@ -9,5 +9,5 @@ Each implementation which we mentioned above can be found in: PROJ-FurierTransfo
 * **Mentor**: Tomaž Dobravec, Ph.D.
 
 ## Dependencies
-* [Apache Commons Math 3.6.1] library (http://commons.apache.org/proper/commons-math/download_math.cgi)
+* [Apache Commons Math 3.6.1](http://commons.apache.org/proper/commons-math/download_math.cgi)
 
