@@ -1,0 +1,9 @@
+{
+  "Algorithm" : {	
+   "ShortName"      : "FFT Iterative 2-Radix",             
+   "Description"    : "Iterative Fast Fourier Transform 2-Radix (decimation in time)",
+   "HTMLDescFile"   : "...",
+   "Author"         : "Ziga",
+   "Date"           : "08/03/2016"
+  }
+} 

@@ -1,0 +1,11 @@
+{"TestSet": {
+    "ShortName"        : "ArbitraryN",
+    "Description"      : "Most of the test cases have an even length (last one has a length of 4096)",
+    "HTMLDescFile"     : "...",
+    "N"                : "13",
+    "TestRepeat"       : "100",
+    "QuickTest"        : true,
+    "TestSetFiles"     : ["ArbitraryN*"],
+    "DescriptionFile"  : "ArbitraryN.txt",
+  }
+}

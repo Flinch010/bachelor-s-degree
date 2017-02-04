@@ -1,0 +1,12 @@
+{"TestSet": {
+    "ShortName"        : "Big2To2N",
+    "Description"      : "Long test cases (length > 1000), every test case has a length of 2^2N, N = 1, 2, ...",
+    "HTMLDescFile"     : "...",
+    "N"                : "9",
+    "TestRepeat"       : "100",
+	"TimeLimit"		   : "60",
+    "QuickTest"        : true,
+    "TestSetFiles"     : ["Big2To2N*"],
+    "DescriptionFile"  : "Big2To2N.txt",
+  }
+}

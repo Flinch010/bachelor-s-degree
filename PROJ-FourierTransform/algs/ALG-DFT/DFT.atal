@@ -1,0 +1,9 @@
+{
+  "Algorithm" : {	
+   "ShortName"      : "DFT",             
+   "Description"    : "Basic Discrete Fourier Transform",
+   "HTMLDescFile"   : "...",
+   "Author"         : "Ziga",
+   "Date"           : "17/02/2016"
+  }
+} 

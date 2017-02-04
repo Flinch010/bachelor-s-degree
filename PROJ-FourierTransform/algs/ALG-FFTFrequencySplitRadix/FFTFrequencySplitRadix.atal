@@ -1,0 +1,9 @@
+{
+  "Algorithm" : {	
+   "ShortName"      : "FFT Split Radix",             
+   "Description"    : "Fast Fourier Transform Split Radix (decimation in frequency)",
+   "HTMLDescFile"   : "...",
+   "Author"         : "Ziga",
+   "Date"           : "2/03/2016"
+  }
+} 

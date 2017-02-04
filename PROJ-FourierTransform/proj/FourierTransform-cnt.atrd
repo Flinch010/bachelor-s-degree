@@ -1,0 +1,38 @@
+{
+  "ResultDescription":
+  { 
+    "Format"           : "CSV",
+    "Delimiter"        : ";",
+    "ResultParameters" : ["ADD", "iADD", "MULTIPLY", "iMULTIPLY", "CALL"],    	
+  
+    "Parameters":   [	
+    
+      {
+       "Name":        "ADD",             
+       "Description": "The number of additions in transform", 
+       "Type":        "counter"       
+      },
+      {
+       "Name":        "MULTIPLY",             
+       "Description": "The number of multiplications in transform", 
+       "Type":        "counter"       
+      },
+      {
+       "Name":        "CALL",             
+       "Description": "The number of recursive calls", 
+       "Type":        "counter"       
+      },
+	   {
+       "Name":        "iADD",             
+       "Description": "The number of additions in inverse transform", 
+       "Type":        "counter"       
+      },
+      {
+       "Name":        "iMULTIPLY",             
+       "Description": "The number of multiplications in inverse transform", 
+       "Type":        "counter"       
+      }
+    ]
+  }
+}
+ 

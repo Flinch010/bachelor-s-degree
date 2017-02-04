@@ -1,0 +1,9 @@
+{
+  "Algorithm" : {	
+   "ShortName"      : "FFT Bluestein",             
+   "Description"    : "Bluestein's Fast Fourier Transform (for arbitrary N)",
+   "HTMLDescFile"   : "...",
+   "Author"         : "Ziga",
+   "Date"           : "08/03/2016"
+  }
+} 

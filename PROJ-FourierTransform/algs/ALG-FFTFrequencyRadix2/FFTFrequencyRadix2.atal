@@ -1,0 +1,9 @@
+{
+  "Algorithm" : {	
+   "ShortName"      : "FFT 2-Radix",             
+   "Description"    : "Fast Fourier Transform 4-Radix (decimation in frequency)",
+   "HTMLDescFile"   : "...",
+   "Author"         : "Ziga",
+   "Date"           : "27/02/2016"
+  }
+} 

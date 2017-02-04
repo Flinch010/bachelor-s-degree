@@ -1,0 +1,118 @@
+{
+  "ResultDescription":
+  { 
+    "Format"           : "CSV",
+    "Delimiter"        : ";",
+    "TestParameters"   : ["Test", "N", "MaxAError"],    	
+    "ResultParameters" : ["Tmax", "Tmin", "Tavg", "Tmed","Tsum", "iTmax", "iTmin", "iTavg", "iTmed", "iTsum", "Check - transform", "Check - inverse transform", "Emax", "Emin", "Eavg"],    	
+  
+    "Parameters":   [	    
+      {
+       "Name":        "Test",             
+       "Description": "The name of the test", 
+       "Type":        "string"       
+      },
+      {
+       "Name":        "N",             
+       "Description": "The size of the test (number of elements to be transformed)", 
+       "Type":        "int"       
+      },
+	  {
+       "Name":        "MaxAError",             
+       "Description": "Maximum allowed error (maximum absolute allowed difference from the actual value)", 
+       "Type":        "double",
+		"Subtype"	:	"20"       
+      },
+    
+     {
+       "Name"         : "Tmax",             
+       "Description"  : "Transformation MAX time",             
+       "Type"         : "timer",          
+       "Subtype"      : "0 MAX"    
+      },
+      {
+       "Name"        : "Tmin",             
+       "Description" : "Transformation MIN time",             
+       "Type"        : "timer",          
+       "Subtype"     : "0 MIN"    
+      },
+      {
+       "Name"         : "Tavg",             
+       "Description"  : "Transformation AVG time",             
+       "Type"         : "timer",          
+       "Subtype"      : "0 AVG"    
+      },
+	  {
+       "Name"         : "Tmed",             
+       "Description"  : "Transformation median time",             
+       "Type"         : "timer",          
+       "Subtype"      : "0 MED"    
+      },
+      {
+       "Name"        : "Tsum",             
+       "Description" : "Transformation SUM	 time",             
+       "Type"        : "timer",          
+       "Subtype"     : "0 SUM"    
+      },
+	   {
+       "Name"         : "iTmax",             
+       "Description"  : "Inverse transformation MAX time",             
+       "Type"         : "timer",          
+       "Subtype"      : "1 MAX"    
+      },
+      {
+       "Name"        : "iTmin",             
+       "Description" : "Inverse transformation MIN time",             
+       "Type"        : "timer",          
+       "Subtype"     : "1 MIN"    
+      },
+      {
+       "Name"         : "iTavg",             
+       "Description"  : "Inverse transformation AVG time",             
+       "Type"         : "timer",          
+       "Subtype"      : "1 AVG"    
+      },
+	  {
+       "Name"         : "iTmed",             
+       "Description"  : "Inverse transformation median time",             
+       "Type"         : "timer",          
+       "Subtype"      : "1 MED"    
+      },
+      {
+       "Name"        : "iTsum",             
+       "Description" : "Inverse transformation SUM	 time",             
+       "Type"        : "timer",          
+       "Subtype"     : "1 SUM"    
+      },
+      {
+       "Name"        : "Check - transform",             
+       "Description" : "Correctness of the transform (OK or NOK)", 
+       "Type"        : "string"       
+      },
+	  {
+       "Name"        : "Check - inverse transform",             
+       "Description" : "Correctness of the inverse transform (OK or NOK)", 
+       "Type"        : "string"       
+      },
+	    {
+       "Name":        "Emin",             
+       "Description": "Minimum error (minimum absolute difference between actual and calculated transform)", 
+       "Type":        "double",
+		"Subtype"	:	"20"
+      },
+	    {
+       "Name":        "Emax",             
+       "Description": "Maximum error (maximum absolute difference between actual and calculated transform)", 
+       "Type":        "double",
+		"Subtype"	:	"20"   
+      },
+	{
+       "Name":        "Eavg",             
+       "Description": "Average error (average absolute difference between actual and calculated transform)", 
+       "Type":        "double",
+		"Subtype"	:	"20"
+      }
+    ]
+  }
+}
+ 
