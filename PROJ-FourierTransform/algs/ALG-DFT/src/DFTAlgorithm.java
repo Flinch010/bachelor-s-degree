@@ -45,9 +45,10 @@ public class DFTAlgorithm extends FourierTransformAbsAlgorithm {
             }
             if (inverseTransform) {
                 //@COUNT{iMULTIPLY, 1}
-                fn = fn.divide(input.length);
+               transformed[n] = fn.divide(input.length);
+            } else {
+               transformed[n] = fn;
             }
-            transformed[n] = fn;
         }
         return transformed;
     }
