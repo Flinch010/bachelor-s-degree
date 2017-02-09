@@ -83,9 +83,9 @@ public class UtilityFunctions {
     
     n must be a power of 2, ie. 2^t
     
-                      2, if n = 2
+               2, if n = 2
     NRC(n) = { 5, if n = 4
-                      2 * NRC(n/4) + NRC(n/2) + 3, if n > 4
+               2 * NRC(n/4) + NRC(n/2) + 3, if n > 4
     
     */
     public static double calculateNumCALLSplitRadix(int n) {
