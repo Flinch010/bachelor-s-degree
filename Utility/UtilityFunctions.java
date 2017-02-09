@@ -48,4 +48,8 @@ public class UtilityFunctions {
         }
         return output;
     }
+    
+    public static double calculateLogarithm(int x, int base) {
+        return Math.log10(x) / Math.log10(base);
+    }
 }
