@@ -61,8 +61,8 @@ public class UtilityFunctions {
      sum of first P terms in geometric series = a0 * (1 - r^P)/(1 - r);
      */
     public static double calculateNumCALLRadix4(int n) {
-        double depth = calculateLogarithm(n, 4);
-        return 4 * (1 - Math.pow(4, depth)) / (1 - 4);
+        //n = 4^P
+        return 4 * (1 - n) / (1 - 4);
     }
 
     /*
@@ -74,8 +74,8 @@ public class UtilityFunctions {
         //or if we want to write it as a sum of number of nodes in binary tree (excluding top node)
         //( 2^(log_2(n) + 1) - 2
         //return (n << 1) - 2;
-        double depth = calculateLogarithm(n, 2);
-        return 2 * (1 - Math.pow(2, depth)) / (1 - 2);
+        //n = 2^P
+        return 2 * (1 - n) / (1 - 2);
     }
 
     /*
@@ -90,15 +90,14 @@ public class UtilityFunctions {
     */
     public static double calculateNumCALLSplitRadix(int n) {
         double sum = 0;
-        double powerOfTwo = calculateLogarithm(n, 2);
-        if (powerOfTwo > 0) {
+        if (n > 1) {
             double a0 = 2;
             sum = a0;
-            if (powerOfTwo > 1) {
+            if (n > 2) {
                 double aKminusTwo = a0;
                 double aKminusOne = 5;
                 sum = aKminusOne;
-                for (int i = 3; i <= powerOfTwo; i++) {
+                for (int i = 8; i <= n; i *= 2) {
                     sum = 3 + 2 * aKminusTwo + aKminusOne;
                     aKminusTwo = aKminusOne;
                     aKminusOne = sum;
