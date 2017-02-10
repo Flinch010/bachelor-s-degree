@@ -53,6 +53,42 @@ public class UtilityFunctions {
         return Math.log10(x) / Math.log10(base);
     }
     
+    public static double calculateLinearRegresionKoeficient(double[] x, double[] y) {
+        if (x.length != y.length || x.length == 1) {
+            throw new IllegalArgumentException("Length of input arrays must be greater than one and equal");
+        }
+        double koeficient;
+        if (x.length == 2) {
+            koeficient = calculateLineKoeficient(x[0], x[1], y[0], y[1]);
+        } else {
+            double averageX = calculateAverage(x);
+            double averageY = calculateAverage(y);
+            float numerator = 0;
+            float denominator = 0;
+            for (int i = 0; i < x.length; i++) {
+                numerator += (x[i] - averageX) * (y[i] - averageY);
+                denominator += (x[i] - averageX) * (x[i] - averageX);
+            }
+            koeficient = numerator / denominator;
+        }
+        return koeficient;
+    }
+
+    public static double calculateLineKoeficient(double x1, double x2, double y1, double y2) {
+        return (y2 - y1) / (x2 - x1);
+    }
+
+    public static double calculateAverage(double[] values) {
+        double average = 0;
+        if (values.length > 0) {
+            for (double value : values) {
+                average += value;
+            }
+            average /= values.length;
+        }
+        return average;
+    }
+    
      /*
      number of recursive calls = sum of first P terms of geometric series 4, 16, 64... (terms of this series are possible input data lenghts (n))
      this sum, which is equal to number of recursive calls, can also be interpreted as number of nodes in a quadtree (excluding top node)
