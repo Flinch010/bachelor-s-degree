@@ -1,1 +1,12 @@
-{"TestSet": {    "ShortName"        : "Basic test set",    "Description"      : "trlalala opis",    "HTMLDescFile"     : "testset1.html",    "N"                : "11",    "TestRepeat"       : "100",    "QuickTest"        : true,    "TestSetFiles"     : ["testset1*"],    "DescriptionFile"  : "testset1.txt",  }}
+{"TestSet": {
+    "ShortName"        : "Basic test set",
+    "Description"      : "trlalala opis",
+    "HTMLDescFile"     : "testset1.html",
+    "N"                : 11,
+    "TestRepeat"       : 100,
+    "QuickTest"        : true,
+    "TestSetFiles"     : ["testset1*"],
+    "DescriptionFile"  : "testset1.txt",
+  }
+}
+
