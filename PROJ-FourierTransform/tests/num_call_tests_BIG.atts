@@ -1,0 +1,12 @@
+{"TestSet": {
+    "ShortName"        : "N call test set",
+    "Description"      : "Every test case has a length of 2^N, N = 1, 2, ..., used to only count number of calls in recursive algorithms",
+    "HTMLDescFile"     : "",
+    "N"                : 5,
+	"TimeLimit"		   : 1000,
+    "TestRepeat"       : 100,
+    "QuickTest"        : true,
+    "TestSetFiles"     : ["num_call_tests_BIG*"],
+    "DescriptionFile"  : "num_call_tests_BIG.txt",
+  }
+}
