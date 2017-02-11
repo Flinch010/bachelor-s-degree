@@ -1,1 +1,15 @@
-{  "Project" : {    "Description"          : "Testing several Fourier transform algorithms",    "HTMLDescFile"         : "fouriertransform.htlm",    "Author"               : "Ziga",    "Date"                 : "17/02/2016",        "Algorithms"           : ["DFT", "FFTTimeRadix2", "FFTTimeRadix2Iterative", "FFTTimeRadix4", "FFTTimeRadix4Iterative", "FFTTimeSplitRadix", "FFTFrequencyRadix2", "FFTFrequencyRadix4", "FFTFrequencySplitRadix", "FFTBluestein"],         "TestSets"             : ["TestSet1", "2ToPowerOfN", "2ToPowerOf2N", "ArbitraryN", "Big2To2N", "BigOddN", "DFT_tests"],		"AlgorithmJARs"        : ["commons-math3-3.6.jar", "FourierTransformAdmin.jar"],    "ProjectJARs"          : ["commons-math3-3.6.jar", "FourierTransformAdmin.jar"]  }}
+{
+  "Project" : {
+    "Description"          : "Testing several Fourier transform algorithms",
+    "HTMLDescFile"         : "fouriertransform.htlm",
+    "Author"               : "Ziga",
+    "Date"                 : "17/02/2016",
+    
+    "Algorithms"           : ["DFT", "FFTTimeRadix2", "FFTTimeRadix2Iterative", "FFTTimeRadix4", "FFTTimeRadix4Iterative", "FFTTimeSplitRadix", "FFTFrequencyRadix2", "FFTFrequencyRadix4", "FFTFrequencySplitRadix", "FFTBluestein"], 
+    
+    "TestSets"             : ["TestSet1", "2ToPowerOfN", "2ToPowerOf2N", "ArbitraryN", "Big2To2N", "BigOddN", "DFT_tests", "num_call_tests_BIG"],
+	
+	"AlgorithmJARs"        : ["commons-math3-3.6.jar", "FourierTransformAdmin.jar"],
+    "ProjectJARs"          : ["commons-math3-3.6.jar", "FourierTransformAdmin.jar"]
+  }
+}
