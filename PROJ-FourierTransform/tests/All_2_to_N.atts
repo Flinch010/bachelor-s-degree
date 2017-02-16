@@ -1,0 +1,12 @@
+{"TestSet": {
+    "ShortName"        : "All_2_to_N",
+    "Description"      : "Every test case has a length of 2^N, N = 1, 2, ... From 2^1 to 2^23",
+    "HTMLDescFile"     : "...",
+    "N"                : "23",
+    "TestRepeat"       : "100",
+	"TimeLimit"		   : 3000,
+    "QuickTest"        : true,
+    "TestSetFiles"     : ["All_2_to_N*"],
+    "DescriptionFile"  : "All_2_to_N.txt",
+  }
+}
