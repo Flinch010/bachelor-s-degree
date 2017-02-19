@@ -1,0 +1,12 @@
+FFTBluestein;test_N_call;Test-1;DONE;6;6;11;13;0
+FFTBluestein;test_N_call;Test-2;DONE;72;72;60;64;0
+FFTBluestein;test_N_call;Test-3;DONE;192;192;144;152;0
+FFTBluestein;test_N_call;Test-4;DONE;480;480;336;352;0
+FFTBluestein;test_N_call;Test-5;DONE;1152;1152;768;800;0
+FFTBluestein;test_N_call;Test-6;DONE;2688;2688;1728;1792;0
+FFTBluestein;test_N_call;Test-7;DONE;6144;6144;3840;3968;0
+FFTBluestein;test_N_call;Test-8;DONE;13824;13824;8448;8704;0
+FFTBluestein;test_N_call;Test-9;DONE;30720;30720;18432;18944;0
+FFTBluestein;test_N_call;Test-10;DONE;67584;67584;39936;40960;0
+FFTBluestein;test_N_call;Test-11;DONE;147456;147456;86016;88064;0
+FFTBluestein;test_N_call;Test-12;DONE;319488;319488;184320;188416;0

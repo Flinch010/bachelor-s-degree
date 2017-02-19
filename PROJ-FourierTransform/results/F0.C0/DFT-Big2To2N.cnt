@@ -1,0 +1,9 @@
+DFT;Big2To2N;Test-1;DONE;1048576;1048576;1048576;1049600;0
+DFT;Big2To2N;Test-2;DONE;1048576;1048576;1048576;1049600;0
+DFT;Big2To2N;Test-3;DONE;16777216;16777216;16777216;16781312;0
+DFT;Big2To2N;Test-4;DONE;16777216;16777216;16777216;16781312;0
+DFT;Big2To2N;Test-5;KILLED;Process killed after 10 seconds.
+DFT;Big2To2N;Test-6;KILLED;Process killed after 10 seconds.
+DFT;Big2To2N;Test-7;KILLED;Process killed after 10 seconds.
+DFT;Big2To2N;Test-8;KILLED;Process killed after 10 seconds.
+DFT;Big2To2N;Test-9;KILLED;Process killed after 10 seconds.

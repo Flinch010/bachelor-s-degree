@@ -1,0 +1,13 @@
+FFTBluestein;ArbitraryN;Test-1;DONE;24;24;26;29;0
+FFTBluestein;ArbitraryN;Test-2;DONE;24;24;26;29;0
+FFTBluestein;ArbitraryN;Test-3;DONE;24;24;26;29;0
+FFTBluestein;ArbitraryN;Test-4;DONE;72;72;62;67;0
+FFTBluestein;ArbitraryN;Test-5;DONE;480;480;324;334;0
+FFTBluestein;ArbitraryN;Test-6;DONE;67584;67584;39426;40195;0
+FFTBluestein;ArbitraryN;Test-7;DONE;67584;67584;38922;39439;0
+FFTBluestein;ArbitraryN;Test-8;DONE;67584;67584;39936;40960;0
+FFTBluestein;ArbitraryN;Test-9;DONE;147456;147456;84768;86192;0
+FFTBluestein;ArbitraryN;Test-10;DONE;147456;147456;85562;87383;0
+FFTBluestein;ArbitraryN;Test-11;DONE;147456;147456;86016;88064;0
+FFTBluestein;ArbitraryN;Test-12;DONE;319488;319488;182130;185131;0
+FFTBluestein;ArbitraryN;Test-13;DONE;319488;319488;184320;188416;0

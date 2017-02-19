@@ -1,0 +1,15 @@
+FFTBluestein;2ToPowerOfN;Test-1;DONE;72;72;60;64;0
+FFTBluestein;2ToPowerOfN;Test-2;DONE;72;72;60;64;0
+FFTBluestein;2ToPowerOfN;Test-3;DONE;72;72;60;64;0
+FFTBluestein;2ToPowerOfN;Test-4;DONE;480;480;336;352;0
+FFTBluestein;2ToPowerOfN;Test-5;DONE;72;72;60;64;0
+FFTBluestein;2ToPowerOfN;Test-6;DONE;72;72;60;64;0
+FFTBluestein;2ToPowerOfN;Test-7;DONE;72;72;60;64;0
+FFTBluestein;2ToPowerOfN;Test-8;DONE;2688;2688;1728;1792;0
+FFTBluestein;2ToPowerOfN;Test-9;DONE;2688;2688;1728;1792;0
+FFTBluestein;2ToPowerOfN;Test-10;DONE;1152;1152;768;800;0
+FFTBluestein;2ToPowerOfN;Test-11;DONE;1152;1152;768;800;0
+FFTBluestein;2ToPowerOfN;Test-12;DONE;480;480;336;352;0
+FFTBluestein;2ToPowerOfN;Test-13;DONE;480;480;336;352;0
+FFTBluestein;2ToPowerOfN;Test-14;DONE;6;6;11;13;0
+FFTBluestein;2ToPowerOfN;Test-15;DONE;67584;67584;39936;40960;0

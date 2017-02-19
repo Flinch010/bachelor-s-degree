@@ -1,0 +1,12 @@
+FFTTimeRadix2;test_N_call;Test-1;DONE;2;2;1;3;2
+FFTTimeRadix2;test_N_call;Test-2;DONE;8;8;4;8;6
+FFTTimeRadix2;test_N_call;Test-3;DONE;24;24;12;20;14
+FFTTimeRadix2;test_N_call;Test-4;DONE;64;64;32;48;30
+FFTTimeRadix2;test_N_call;Test-5;DONE;160;160;80;112;62
+FFTTimeRadix2;test_N_call;Test-6;DONE;384;384;192;256;126
+FFTTimeRadix2;test_N_call;Test-7;DONE;896;896;448;576;254
+FFTTimeRadix2;test_N_call;Test-8;DONE;2048;2048;1024;1280;510
+FFTTimeRadix2;test_N_call;Test-9;DONE;4608;4608;2304;2816;1022
+FFTTimeRadix2;test_N_call;Test-10;DONE;10240;10240;5120;6144;2046
+FFTTimeRadix2;test_N_call;Test-11;DONE;22528;22528;11264;13312;4094
+FFTTimeRadix2;test_N_call;Test-12;DONE;49152;49152;24576;28672;8190

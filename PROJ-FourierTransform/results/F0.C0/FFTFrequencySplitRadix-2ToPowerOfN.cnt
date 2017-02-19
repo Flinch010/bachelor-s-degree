@@ -1,0 +1,15 @@
+FFTFrequencySplitRadix;2ToPowerOfN;Test-1;DONE;8;8;3;7;5
+FFTFrequencySplitRadix;2ToPowerOfN;Test-2;DONE;8;8;3;7;5
+FFTFrequencySplitRadix;2ToPowerOfN;Test-3;DONE;8;8;3;7;5
+FFTFrequencySplitRadix;2ToPowerOfN;Test-4;DONE;64;64;23;39;25
+FFTFrequencySplitRadix;2ToPowerOfN;Test-5;DONE;8;8;3;7;5
+FFTFrequencySplitRadix;2ToPowerOfN;Test-6;DONE;8;8;3;7;5
+FFTFrequencySplitRadix;2ToPowerOfN;Test-7;DONE;8;8;3;7;5
+FFTFrequencySplitRadix;2ToPowerOfN;Test-8;DONE;384;384;135;199;105
+FFTFrequencySplitRadix;2ToPowerOfN;Test-9;DONE;384;384;135;199;105
+FFTFrequencySplitRadix;2ToPowerOfN;Test-10;DONE;160;160;57;89;52
+FFTFrequencySplitRadix;2ToPowerOfN;Test-11;DONE;160;160;57;89;52
+FFTFrequencySplitRadix;2ToPowerOfN;Test-12;DONE;64;64;23;39;25
+FFTFrequencySplitRadix;2ToPowerOfN;Test-13;DONE;64;64;23;39;25
+FFTFrequencySplitRadix;2ToPowerOfN;Test-14;DONE;2;2;1;3;2
+FFTFrequencySplitRadix;2ToPowerOfN;Test-15;DONE;10240;10240;3527;4551;1705

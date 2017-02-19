@@ -1,0 +1,10 @@
+FFTFrequencyRadix2;2ToPowerOf2N;Test-1;DONE;8;8;4;8;6
+FFTFrequencyRadix2;2ToPowerOf2N;Test-2;DONE;64;64;32;48;30
+FFTFrequencyRadix2;2ToPowerOf2N;Test-3;DONE;8;8;4;8;6
+FFTFrequencyRadix2;2ToPowerOf2N;Test-4;DONE;8;8;4;8;6
+FFTFrequencyRadix2;2ToPowerOf2N;Test-5;DONE;8;8;4;8;6
+FFTFrequencyRadix2;2ToPowerOf2N;Test-6;DONE;384;384;192;256;126
+FFTFrequencyRadix2;2ToPowerOf2N;Test-7;DONE;384;384;192;256;126
+FFTFrequencyRadix2;2ToPowerOf2N;Test-8;DONE;64;64;32;48;30
+FFTFrequencyRadix2;2ToPowerOf2N;Test-9;DONE;64;64;32;48;30
+FFTFrequencyRadix2;2ToPowerOf2N;Test-10;DONE;10240;10240;5120;6144;2046

@@ -1,0 +1,12 @@
+FFTFrequencySplitRadix;test_N_call;Test-1;DONE;2;2;1;3;2
+FFTFrequencySplitRadix;test_N_call;Test-2;DONE;8;8;3;7;5
+FFTFrequencySplitRadix;test_N_call;Test-3;DONE;24;24;9;17;12
+FFTFrequencySplitRadix;test_N_call;Test-4;DONE;64;64;23;39;25
+FFTFrequencySplitRadix;test_N_call;Test-5;DONE;160;160;57;89;52
+FFTFrequencySplitRadix;test_N_call;Test-6;DONE;384;384;135;199;105
+FFTFrequencySplitRadix;test_N_call;Test-7;DONE;896;896;313;441;212
+FFTFrequencySplitRadix;test_N_call;Test-8;DONE;2048;2048;711;967;425
+FFTFrequencySplitRadix;test_N_call;Test-9;DONE;4608;4608;1593;2105;852
+FFTFrequencySplitRadix;test_N_call;Test-10;DONE;10240;10240;3527;4551;1705
+FFTFrequencySplitRadix;test_N_call;Test-11;DONE;22528;22528;7737;9785;3412
+FFTFrequencySplitRadix;test_N_call;Test-12;DONE;49152;49152;16839;20935;6825

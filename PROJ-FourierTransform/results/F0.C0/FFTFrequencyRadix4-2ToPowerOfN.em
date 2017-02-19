@@ -1,0 +1,15 @@
+FFTFrequencyRadix4;2ToPowerOfN;Test-1;DONE;test1;4;0.0;1991;15;37;17;3784;24;9;12;11;1259;OK;OK;0.0;0.0;0.0
+FFTFrequencyRadix4;2ToPowerOfN;Test-2;DONE;test2;4;0.0;2008;15;38;18;3878;60;9;13;12;1322;OK;OK;0.0;0.0;0.0
+FFTFrequencyRadix4;2ToPowerOfN;Test-3;DONE;test3;4;0.0;2723;15;44;17;4490;38;9;12;12;1251;OK;OK;0.0;0.0;0.0
+FFTFrequencyRadix4;2ToPowerOfN;Test-4;DONE;test4;16;0.0;1548;42;72;49;7297;123;34;50;40;5025;OK;OK;4.9898476461863E-7;0.0;8.291273688454E-8
+FFTFrequencyRadix4;2ToPowerOfN;Test-5;DONE;test5;4;0.0;2055;15;40;18;4044;39;9;14;12;1452;OK;OK;0.0;0.0;0.0
+FFTFrequencyRadix4;2ToPowerOfN;Test-6;DONE;test6;4;0.0;1652;15;35;18;3504;24;10;12;12;1279;OK;OK;0.0;0.0;0.0
+FFTFrequencyRadix4;2ToPowerOfN;Test-7;DONE;test7;4;0.0;1453;15;32;17;3243;24;10;12;11;1248;OK;OK;0.0;0.0;0.0
+FFTFrequencyRadix4;2ToPowerOfN;Test-8;DONE;test8;64;0.0;2108;20;132;37;13278;453;19;117;34;11702;OK;OK;0.0;0.0;0.0
+FFTFrequencyRadix4;2ToPowerOfN;Test-9;DONE;test9;64;0.0;2195;22;139;28;13958;580;19;120;24;12073;OK;OK;0.0;0.0;0.0
+FFTFrequencyRadix4;2ToPowerOfN;Test-10;FAILED;Error: Process can not be created.: Exception in thread "main" java.lang.IllegalArgumentException: Length of the <input> must be an even power of 2 (i.e. 2^2N, N = 1, 2, ...), actual: 32	at FFTFrequencyRadix4Algorithm.calculateTransform(FFTFrequencyRadix4Algorithm.java:19)	at FFTFrequencyRadix4Algorithm.transform(FFTFrequencyRadix4Algorithm.java:8)	at FourierTransformAbsAlgorithm.run(FourierTransformAbsAlgorithm.java:33)	at algator.ExternalExecute.run(ExternalExecute.java:78)	at algator.ExternalExecute.main(ExternalExecute.java:167)
+FFTFrequencyRadix4;2ToPowerOfN;Test-11;FAILED;Error: Process can not be created.: Exception in thread "main" java.lang.IllegalArgumentException: Length of the <input> must be an even power of 2 (i.e. 2^2N, N = 1, 2, ...), actual: 32	at FFTFrequencyRadix4Algorithm.calculateTransform(FFTFrequencyRadix4Algorithm.java:19)	at FFTFrequencyRadix4Algorithm.transform(FFTFrequencyRadix4Algorithm.java:8)	at FourierTransformAbsAlgorithm.run(FourierTransformAbsAlgorithm.java:33)	at algator.ExternalExecute.run(ExternalExecute.java:78)	at algator.ExternalExecute.main(ExternalExecute.java:167)
+FFTFrequencyRadix4;2ToPowerOfN;Test-12;DONE;test12;16;0.0;2764;40;83;48;8359;156;34;52;39;5204;OK;OK;0.0;0.0;0.0
+FFTFrequencyRadix4;2ToPowerOfN;Test-13;DONE;test13;16;0.0;1496;41;72;48;7252;127;34;52;40;5281;OK;OK;0.0;0.0;0.0
+FFTFrequencyRadix4;2ToPowerOfN;Test-14;FAILED;Error: Process can not be created.: Exception in thread "main" java.lang.IllegalArgumentException: Length of the <input> must be an even power of 2 (i.e. 2^2N, N = 1, 2, ...), actual: 2	at FFTFrequencyRadix4Algorithm.calculateTransform(FFTFrequencyRadix4Algorithm.java:19)	at FFTFrequencyRadix4Algorithm.transform(FFTFrequencyRadix4Algorithm.java:8)	at FourierTransformAbsAlgorithm.run(FourierTransformAbsAlgorithm.java:33)	at algator.ExternalExecute.run(ExternalExecute.java:78)	at algator.ExternalExecute.main(ExternalExecute.java:167)
+FFTFrequencyRadix4;2ToPowerOfN;Test-15;DONE;test15;1024;0.0;9772;299;589;307;58932;7647;321;585;330;58572;OK;OK;0.0;0.0;0.0
