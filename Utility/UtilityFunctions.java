@@ -52,41 +52,90 @@ public class UtilityFunctions {
     public static double calculateLogarithm(int x, int base) {
         return Math.log10(x) / Math.log10(base);
     }
-    
-    public static double calculateLinearRegresionKoeficient(double[] x, double[] y) {
-        if (x.length != y.length || x.length == 1) {
+   
+     /**
+     *
+     * @return k & n for best fit: y(x) = k * x + n
+     */
+    public static double[] calculateLinearRegresion(double[] x, double[] y) {
+        double[] kAndN = new double[2];
+        if (x.length != y.length || x.length <= 1) {
             throw new IllegalArgumentException("Length of input arrays must be greater than one and equal");
         }
         double koeficient;
+        double n;
         if (x.length == 2) {
             koeficient = calculateLineKoeficient(x[0], x[1], y[0], y[1]);
+            n = y[0] - koeficient * x[0];
         } else {
-            double averageX = calculateAverage(x);
-            double averageY = calculateAverage(y);
-            float numerator = 0;
-            float denominator = 0;
+            double sx = 0;
+            double sy = 0;
+            double sxx = 0;
+            double sxy = 0;
             for (int i = 0; i < x.length; i++) {
-                numerator += (x[i] - averageX) * (y[i] - averageY);
-                denominator += (x[i] - averageX) * (x[i] - averageX);
+                sxx += x[i] * x[i];
+                sxy += x[i] * y[i];
+                sy += y[i];
+                sx += x[i];
             }
-            koeficient = numerator / denominator;
+            koeficient = (x.length * sxy - sx * sy) / (x.length * sxx - sx * sx);
+            n = (sy * sxx - sx * sxy) / (x.length * sxx - sx * sx);
         }
-        return koeficient;
+        kAndN[0] = koeficient;
+        kAndN[1] = n;
+        return kAndN;
     }
 
     public static double calculateLineKoeficient(double x1, double x2, double y1, double y2) {
         return (y2 - y1) / (x2 - x1);
     }
 
-    public static double calculateAverage(double[] values) {
-        double average = 0;
-        if (values.length > 0) {
-            for (double value : values) {
-                average += value;
-            }
-            average /= values.length;
+    /**
+     *
+     * @return a & b koeficients for log fit y(x) = a + b * ln(x)
+     */
+    public double[] calculateLogFit(double[] x, double[] y) {
+        if (x.length != y.length || x.length <= 1) {
+            throw new IllegalArgumentException("Length of input arrays must be greater than one and equal");
         }
-        return average;
+        double sxx = 0;
+        double sxy = 0;
+        double sx = 0;
+        double sy = 0;
+        for (int i = 0; i < x.length; i++) {
+            double lnx = calculateLogarithm(x[i], Math.E);
+            sxx += lnx * lnx;
+            sxy += lnx * y[i];
+            sy += y[i];
+            sx += lnx;
+        }
+        double b = (x.length * sxy - sy * sx) / (x.length * sxx - sx * sx);
+        double a = (sy - b * sx) / x.length;
+        return new double[]{a, b};
+    }
+
+    /**
+     *
+     * @return a & b koeficients for log fit y(x) = a + b * x * ln(x)
+     */
+    public double[] calculateNLogFit(double[] x, double[] y) {
+        if (x.length != y.length || x.length <= 1) {
+            throw new IllegalArgumentException("Length of input arrays must be greater than one and equal");
+        }
+        double sxx = 0;
+        double sxy = 0;
+        double sx = 0;
+        double sy = 0;
+        for (int i = 0; i < x.length; i++) {
+            double lnx = x[i] * calculateLogarithm(x[i], Math.E);
+            sxx += lnx * lnx;
+            sxy += lnx * y[i];
+            sy += y[i];
+            sx += lnx;
+        }
+        double b = (x.length * sxy - sy * sx) / (x.length * sxx - sx * sx);
+        double a = (sy - b * sx) / x.length;
+        return new double[]{a, b};
     }
     
      /*
