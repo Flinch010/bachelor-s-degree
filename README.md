@@ -14,6 +14,7 @@ Each implementation which we mentioned above can be found in: PROJ-FurierTransfo
 
 ## Downloads
 * [Test results](https://drive.google.com/file/d/0B3wxW4hL0-evOXNEc0huaklmc1U/view?usp=sharing)
+* [Bachelor's degree](http://eprints.fri.uni-lj.si/3818/1/63080411-%C5%BDIGA_ZORMAN-Primerjava_algoritmov_za_izra%C4%8Dun_Fourierjeve_transformacije_s_pomo%C4%8Djo_sistema_ALGator(1).pdf)
 
 ## References
 
